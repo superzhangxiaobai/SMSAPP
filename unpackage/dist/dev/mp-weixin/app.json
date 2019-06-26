@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/home/home",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#339966",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#339966",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/location.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "我"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+<import src="/colorui/components/cu-custom.vue.wxml" />
+<import src="/components/uni-calendar/uni-calendar.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/uni-calendar/uni-calendar-item.vue.wxml" />
+
+<template name="M4719f3c4-default-4719f3c4-0"></template>
+
+<template name="M4719f3c4-content-4719f3c4-0"><image src="/static/cjkz.png" mode="aspectFill" style="width: 240rpx;height: 60rpx;" class="_image M4719f3c4"></image></template>
+
+<template name="M6c4b56a4-default-6c4b56a4-0"></template>
+
+<template name="M6c4b56a4-content-6c4b56a4-0">我要打卡</template>
+

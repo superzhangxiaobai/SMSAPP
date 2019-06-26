@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"backgroundColor": "#ffffff"//,
+				// "navigationBarTextStyle":"white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "微信",//导航栏文字内容
+		"navigationBarTextStyle": "black",//导航栏标题色
+		"navigationBarBackgroundColor": "#339966",//导航栏背景色
+		"backgroundColor": "#ffffff",//导航背景色,微信小程序
+		"backgroundTextStyle":"dark",//下拉样式,微信
+		"enablePullDownRefresh":true,
+		"navigationStyle": "custom"//自定义导航
+	},
+	"tabBar": {
+		/* "color": "#000000",
+		"selectedColor": "#339966",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			 {
+				"pagePath": "pages/index/index",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "微信"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/location.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "我"
+			}
+		] */
+	}
+}

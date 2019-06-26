@@ -1,0 +1,6 @@
+
+.primary{
+	width:100%;
+	background-color: #339966;
+}
+

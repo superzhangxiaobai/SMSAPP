@@ -1,0 +1,64 @@
+
+.content {
+		text-align: center;
+		color: #000000;
+		font-size: 30rpx;
+}
+.logo{
+        height: 200rpx;
+        width: 200rpx;
+        margin-top: 200rpx;
+		margin-bottom: 100rpx;
+}
+.other-icon{
+		width: 30rpx;
+		height: 30rpx;
+		margin: 0 20rpx 20rpx 20rpx;
+}
+.primary{
+		background-color:#339966;/*登录按钮颜色 */
+		width: 400rpx;
+}
+.action-row{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		font-size: 26rpx;
+}
+.input-row{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}
+.btn-row{
+		margin:50rpx;
+}
+.tip-image{
+		width: 20rpx;
+		height: 20rpx;
+}
+.oauth-row{
+		font-size:26rpx;
+		color: red;
+}
+
